@@ -153,3 +153,28 @@
     background-color: var(--accent-color);
     color: var(--background-color);
   }
+  .navik {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  /* footer */
+  footer {
+    background-color: var(--hero-backrount-color);
+  }
+  footer .logo > span {
+    color: var(--background-color);
+  }
+  .conteiner.header{
+    display: flex;
+  }
+  .conteiner.header nav{
+    display: flex;
+  }
+  .nav-list{
+    display: flex;
+  }
+  .conteiner{
+    outline: solid 3px red;
+  }
