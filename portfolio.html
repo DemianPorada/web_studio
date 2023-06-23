@@ -11,40 +11,44 @@
  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-      
+     <!-- Шапка сторінки -->
+     <header>
+      <div class="container header">
+        <nav>
           <!-- Логотип -->
-       <a class="logo" href="./">Web<span>Studio</span></a>
+          <a class="logo" href="./">Web<span>Studio</span></a>
           <!--Навігація -->
-          <ul>
-          <li class="nav-item">
-            <a class="nav-link" href="./">Студія</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./">Контакти</a>
-          </li>
-        </ul>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="">Студія</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Контакти</a>
+            </li>
+          </ul>
         </nav>
-        <ul>
-        <li >
-            <a class="contacts-link" href="./">info@devstudio.com</a>
-        </li>
-        <li >
-            <a class="contacts-link" href="./">+38 096 111 11 11</a>
-        </li>
+        <!-- Контакти -->
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="">info@devstudio.com</a>
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="">+38 096 111 11 11</a>
+          </li>
         </ul>
-        <!-- шапка сайту -->
-      </header>
+      </div>
+    </header>
 <main>
+  <div class="container">
 <ul>
-<li><button class="button">усі</button></li>
-<li><button class="button">Веб-сайт</button></li>
-<li><button class="button">Додатки</button></li>
-<li><button class="button">Дизайн</button></li>
-<li><button class="button">Маркетинг</button></li>
+<li><button type="button">усі</button></li>
+<li><button type="button">Веб-сайт</button></li>
+<li><button type="button">Додатки</button></li>
+<li><button type="button">Дизайн</button></li>
+<li><button ctype="button">Маркетинг</button></li>
 
 
 
@@ -70,16 +74,22 @@
 <li><a href="./"><img src="/imagis/advanture/lol6.png" alt=""><br><b class="logi">Growing Business</b><p class="lolo">Додаток</p></a>
 </li>
 </ul>
+</div>
 </main>
-  <footer>
-    <!-- Логотип -->
-<a class="logo" href="./">Web<span>Studio</span></a>
-    <address>м. Київ, пр-т Лесі Українки, 26</address>
-  </nav>
-  <ul>
-    <li><a class="navik" href="./">info@devstudio.com</a></li>
-    <li><a class="navik" href="./">+38 096 111 11 11</a></li>
-  </ul>
-</footer>
+    <!-- Футер -->
+    <footer class="section footer">
+      <div class="container">
+        <a class="logo" href="./">Web<span>Studio</span></a>
+        <address>м. Київ, пр-т Лесі Українки, 26</address>
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="">info@devstudio.com</a>
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 </body>
 </html>

@@ -228,7 +228,7 @@ h1 {
 
 .photos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -238,10 +238,6 @@ h1 {
   line-height: 19px;
   text-align: center;
   background-color: #ffffff;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -255,10 +251,7 @@ h1 {
   letter-spacing: 0.03em;
   background-color: #ffffff;
   padding: 0;
-  height: 90px;
   text-align: center;
-  justify-content: space-evenly;
-  align-items: flex-start;
   color: var(--secondary-text-color);
 }
 /* футер */

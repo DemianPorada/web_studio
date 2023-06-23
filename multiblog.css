@@ -1,0 +1,20 @@
+.overlay{
+    outline: 1px solid black;
+
+  max-width: 1200px;
+  height: 400px;
+
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    to right
+    rgba
+  );
+}
+.button::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: red;
+  
+  }
