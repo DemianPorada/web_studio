@@ -1,3 +1,4 @@
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -251,13 +252,18 @@ h1 {
   letter-spacing: 0.03em;
   background-color: #ffffff;
   padding: 0;
+  height: 90px;
   text-align: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
   color: var(--secondary-text-color);
 }
 /* футер */
 .footer {
   background-color: var(--hero-background-color);
 }
+
+
 .footer .logo > span {
   color: var(--background-color);
 }
