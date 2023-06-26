@@ -283,3 +283,26 @@ address {
 
   color: rgba(255, 255, 255, 0.6);
 }
+.foto-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.foto-item{
+  width: calc((100% - 6 * 15px) / 3);
+  margin: 15px;
+  border: 1px solid #EEEEEE ;
+}
+.job-title{
+  margin-bottom: 4px;
+}
+.bt-list{
+  display: flex;
+  justify-content:center;
+  margin-bottom: 50px;
+}
+.bt{
+  margin-left:10px;
+  color: #212121;
+  
+}
